@@ -1,0 +1,29 @@
+{
+  "name": "magical-arena",
+  "version": "1.0.0",
+  "description": "This project implements a magical arena where two players fight until one of them loses all their health. Players have attributes such as health, strength, and attak, and they take turns attaking and defending.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glorycs29/Magical-Arena.git"
+  },
+  "keywords": [
+    "game",
+    "arena",
+    "magical",
+    "battle"
+  ],
+  "author": "Glory Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Glorycs29/Magical-Arena/issues"
+  },
+  "homepage": "https://github.com/Glorycs29/Magical-Arena#readme",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.5.2"
+  }
+}
