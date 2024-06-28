@@ -4,7 +4,7 @@
   "description": "This project implements a magical arena where two players fight until one of them loses all their health. Players have attributes such as health, strength, and attak, and they take turns attaking and defending.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --require esm --experimental-vm-modules"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "homepage": "https://github.com/Glorycs29/Magical-Arena#readme",
   "devDependencies": {
     "chai": "^5.1.1",
+    "esm": "^3.2.25",
     "mocha": "^10.5.2"
   }
 }

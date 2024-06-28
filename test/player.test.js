@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+import { expect } from 'chai';
 const Player = require('../src/player');
 
 describe('Player', () =>{

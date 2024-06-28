@@ -1,10 +1,12 @@
-const { expect } = require('chai');
-const Player = require('..src/player');
-const Arena = require('..src/arena');
-const Dice = require('..src/dice');
+import { expect } from 'chai';
+import Player from '../src/player';
+import Arena from '../src/arena';
+import Dice from '../src/dice';
+
+
 
 describe('Arena', () =>{
-    it('should handle a comlete fight', () => {
+    it('should handle a complete fight', () => {
         const playerA = new Player('Player A', 50, 5,10);
         const playerB = new Player('Player B', 100, 10, 5);
         const arena = new Arena(playerA, playerB);

@@ -12,7 +12,7 @@ class Arena{
         }
 
         const winner = this.player1.isAlive() ? this.player1.name : this.player2.name;
-        console.log(`The winnwe is ${winner}`);
+        console.log(`The winner is ${winner}`);
     }
 
     fightRound(){
