@@ -1,5 +1,5 @@
-const Dice = require('./dice');
-
+import Dice from '../src/dice.js';
+export default
 class Arena{
     constructor(player1, player2){
         this.player1 = player1;
@@ -45,4 +45,3 @@ class Arena{
     }
 }
 
-module.exports = Arena;
