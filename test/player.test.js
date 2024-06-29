@@ -1,5 +1,6 @@
 import { expect } from 'chai';
-const Player = require('../src/player');
+import Player from '../src/player.js';
+
 
 describe('Player', () =>{
     it('should initialize with correct attributes', () =>{

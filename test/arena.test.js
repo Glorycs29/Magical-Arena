@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import Player from '../src/player';
-import Arena from '../src/arena';
-import Dice from '../src/dice';
+import Player from '../src/player.js';
+import Arena from '../src/arena.js';
+import Dice from '../src/dice.js';
 
 
 

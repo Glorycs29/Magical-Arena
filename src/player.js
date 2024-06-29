@@ -1,3 +1,4 @@
+export default
 class Player{
     constructor(name, health, strength, attack){
         this.name = name;
@@ -12,4 +13,3 @@ class Player{
 
 }
 
-module.exports = Player;

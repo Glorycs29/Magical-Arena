@@ -1,5 +1,5 @@
-const Player = require('./player.js');
-const Arena = require('./arena.js');
+import Player from '../src/player.js';
+import Arena from '../src/arena.js';
 
 const playerA = new Player('Player A', 50, 5, 10);
 const playerB = new Player('Player B', 100, 10, 5);

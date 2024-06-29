@@ -1,10 +1,11 @@
 {
   "name": "magical-arena",
+  "type": "module",
   "version": "1.0.0",
   "description": "This project implements a magical arena where two players fight until one of them loses all their health. Players have attributes such as health, strength, and attak, and they take turns attaking and defending.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha --require esm --experimental-vm-modules"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
