@@ -1,8 +1,5 @@
-import Player from '../src/player.js';
-import Arena from '../src/arena.js';
+import { runTestCases } from '../testCases.js';
 
-const playerA = new Player('Player A', 50, 5, 10);
-const playerB = new Player('Player B', 100, 10, 5);
+console.log("----------Magical Arena-----------");
 
-const arena = new Arena(playerA, playerB);
-arena.startFight(); 
+runTestCases();

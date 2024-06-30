@@ -32,6 +32,18 @@
 
 - <code>node src/index.js</code>
 
+
 #### Run tests:
 
 - <code>npm test</code>
+- This is for checking all the components, whether they are working in a correct way or not.
+
+#### Run input testCases:
+
+- <code>node interactiveArena.js</code>
+- Check for manual input given by user.
+
+#### Thank you
+
+
+
